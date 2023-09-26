@@ -1,0 +1,197 @@
+body {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+    
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.card {
+    display: flex;
+    border-radius: 13px;
+    height: 400px;
+
+    box-shadow: 0px 5px 40px;
+}
+.card .div-result {
+    /* background: linear-gradient(to bottom, var(--bg-light), var(--bg-dark) ); */
+    background: linear-gradient(180deg, var(--bg-light), var(--bg-dark));
+    /* Dessa forma o mais iluminado fica em cima e o mais escuro em baixo */
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .div-sumary {
+    background: white;
+    padding: 20px;
+    width: 300px;
+
+    border-radius: 30px;
+}
+
+
+.card .div-result .yourResult {
+    color: var(--lavander);
+    font-size: 20px;
+    padding: 5px;
+}
+
+.card .div-result .valueScored {
+    color: var(--lavander);
+    background: linear-gradient(180deg, var(--bg-dark), var(--bg-light));
+
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .div-result .value {
+    color: white;
+    font-weight: 800;
+    font-size: 55px;
+}
+
+.card .div-result .status {
+    font-size: 26px;
+    color: var(--pale-blue);
+    padding-bottom: 20px;
+}
+
+.card .div-result .descrition {
+    color: var(--lavander);
+    font-size: 14px;
+    line-height: 23px;
+    position: relative;
+    bottom: 22px;
+}
+
+.card .div-sumary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-left: 18px;
+}
+
+.card .div-sumary .sumary {
+    font-size: 20px;
+    color: var(--buttom);
+}
+
+.card .div-sumary .results .reaction {
+    background-color: var(--bg-react);
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 10px;
+
+    margin-bottom: 15px;
+}
+
+.card .div-sumary .results .categories {
+    display:flex;
+}
+
+.card .div-sumary .results .categories .category {
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 3px;
+}
+
+.card .div-sumary .results .reaction .categories .category {
+    color: var(--color-react);
+}
+
+
+.card .div-sumary .results .score {
+    color: var(--total-score-results);
+    font-weight: 700;
+}
+
+.card .div-sumary .results .score .valueScored{
+    color: var(--score-results);
+    font-weight: 800;
+    margin-right: 2px;
+}
+
+.card .div-sumary .results .memory {
+    background-color: var(--bg-memory);
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 10px;
+    
+    margin-bottom: 15px;
+}
+
+.card .div-sumary .results .memory .categories .category {
+    color: var(--color-memory);
+}
+
+.card .div-sumary .results .verbal {
+    background-color: var(--bg-verbal);
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 10px;
+    
+    margin-bottom: 15px;
+}
+
+.card .div-sumary .results .verbal .categories .category {
+    color: var(--color-verbal);
+}
+
+.card .div-sumary .results .visual {
+    background-color: var(--bg-visual);
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 10px;
+    
+    margin-bottom: 15px;
+}
+
+.card .div-sumary .results .visual .categories .category {
+    color: var(--color-visual);
+}
+
+.card .div-sumary .buttom {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    color: white;
+    background-color: var(--buttom);
+    font-size: 15px;
+    height: 43px;
+    width: 229px;
+
+    border-radius: 30px;
+
+    padding-top: 10px;
+    transition: 0.8s ease-in;
+}
+
+.card .div-sumary .buttom:hover {
+    background: linear-gradient(180deg, var(--bg-light), var(--bg-dark));
+}

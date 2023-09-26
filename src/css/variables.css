@@ -1,0 +1,27 @@
+:root {
+    --color-react: hsl(0, 100%, 67%);
+    --bg-react:#FFF6F5;
+    --color-memory: hsl(39, 100%, 56%);
+    --bg-memory:#FFFBF2;
+    --color-verbal: hsl(166, 100%, 37%);
+    --bg-verbal: #F2FBFA;
+    --color-visual: hsl(234, 85%, 45%);
+    --bg-visual: #F3F3FD;
+
+    --score-results: #32323C;
+    --total-score-results: #B1ACB0;
+
+    --bg-light: hsl(252, 100%, 67%);
+    --bg-dark: hsl(241, 81%, 54%);
+    
+    --circle-violet: hsla(256, 72%, 46%, 1);
+    --circle-persian:hsla(241, 72%, 46%, 0);
+
+    /* TODO achar quais são as cores que pertencem ao bg dos sumarys*/
+    --pale-blue: hsl(221, 100%, 96%);
+    --lavander:hsl(241, 100%, 89%);
+    
+    --buttom:hsl(224, 30%, 27%);
+
+
+}

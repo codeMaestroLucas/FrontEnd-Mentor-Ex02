@@ -1,0 +1,21 @@
+@media(max-width: 619px) {
+    body {
+        margin:20px;
+        height: 60vh;
+    }
+    .card {
+        flex-direction: column;
+    }
+
+    .card .div-result, .div-sumary {
+        width: 300px;
+    }
+
+    .card .div-result {
+        padding-bottom: 0;
+    }
+
+    .card .div-sumary {
+        margin: 0;
+    }
+}
